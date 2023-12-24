@@ -32,6 +32,15 @@ void printLinkedListFromTail(node *tail){
     }
     cout << "null" << endl;
 }
+node* insertAtBegining(node*& head,int val){
+   
+    node* newhead=new node(val);
+    head->prev=newhead;
+    newhead->next=head;
+    return newhead;
+    
+}
+
 int main()
 {
     node *head = new node(1);
@@ -49,5 +58,12 @@ int main()
     printlinkedlistFromHead(head);
     cout << "linked list from the tail" << endl;
     printLinkedListFromTail(tail);
- return 0;
+    cout<<"new linked list is"<<endl;
+    node* newhead = insertAtBegining(head,10);
+    head=newhead;
+    
+    printlinkedlistFromHead(head);
+    printLinkedListFromTail(tail);
+    
+
 }
