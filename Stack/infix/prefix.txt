@@ -1,0 +1,27 @@
+Infix expression-
+
+<operands><operator><operands>
+
+Precedence-                       Associativit- 
+1. ()                             
+2. ^                              right->left
+3. *,/                            left->right
+4. +,-                            left->right
+
+Prefix Notation-
+
+<operator><operands><operands>
+ 
+ 1.   4*2+3  ->      =*423
+ 2.   5-6/7  ->      -5/67
+ 
+
+ Postfix-
+
+ <operand><operand><operator>
+
+ 1.   4*2+3  ->      42*3+
+ 2.   5-6/7  ->      567/-
+
+ In case of prefix we start from the last and in case of postfix we start form last
+ In case of postfix we start from the first
