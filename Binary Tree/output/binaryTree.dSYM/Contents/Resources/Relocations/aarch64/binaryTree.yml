@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rithkchaudhary/Documents/DataStructuresPractise/Binary Tree/output/binaryTree'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B6C, symSize: 0x130 }
+  - { offsetInCU: 0x4443, offset: 0x4443, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x190, symBinAddr: 0x100003CFC, symSize: 0x58 }
+  - { offsetInCU: 0x4483, offset: 0x4483, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x29C, symBinAddr: 0x100003E08, symSize: 0x2C }
+  - { offsetInCU: 0x6CFD, offset: 0x6CFD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B6C, symSize: 0x130 }
+  - { offsetInCU: 0x6D7D, offset: 0x6D7D, size: 0x8, addend: 0x0, symName: __ZN4NodeC1Ei, symObjAddr: 0x130, symBinAddr: 0x100003C9C, symSize: 0x34 }
+  - { offsetInCU: 0x6E60, offset: 0x6E60, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x164, symBinAddr: 0x100003CD0, symSize: 0x2C }
+  - { offsetInCU: 0x6E92, offset: 0x6E92, size: 0x8, addend: 0x0, symName: __ZN4NodeC2Ei, symObjAddr: 0x1E8, symBinAddr: 0x100003D54, symSize: 0x28 }
+  - { offsetInCU: 0x6EC8, offset: 0x6EC8, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x210, symBinAddr: 0x100003D7C, symSize: 0x8C }
+  - { offsetInCU: 0x6F34, offset: 0x6F34, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x2C8, symBinAddr: 0x100003E34, symSize: 0x38 }
+...
