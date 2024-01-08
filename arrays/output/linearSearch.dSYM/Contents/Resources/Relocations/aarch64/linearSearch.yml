@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rithkchaudhary/Documents/DataStructuresPractise/arrays/output/linearSearch'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9searchingPiii, symObjAddr: 0x0, symBinAddr: 0x100003E58, symSize: 0x88 }
+  - { offsetInCU: 0x2C66, offset: 0x2C66, size: 0x8, addend: 0x0, symName: __Z9searchingPiii, symObjAddr: 0x0, symBinAddr: 0x100003E58, symSize: 0x88 }
+  - { offsetInCU: 0x2CCA, offset: 0x2CCA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x88, symBinAddr: 0x100003EE0, symSize: 0x8C }
+...
