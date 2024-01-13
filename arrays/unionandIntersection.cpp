@@ -1,3 +1,5 @@
+//incomplete code
+
 #include<iostream>
 using namespace std;
 void printing(int arr[],int n){
@@ -5,6 +7,7 @@ void printing(int arr[],int n){
         cout<<arr[i]<<" ";
     }
 }
+
 void unionArray(int arr1[],int arr2[],int size1,int size2){
     int unionArr[]={};
     int count=size1;
